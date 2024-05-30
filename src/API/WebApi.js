@@ -1,1 +1,0 @@
-export const championApi = "https://ddragon.leagueoflegends.com/cdn/14.10.1/data/en_US/champion.json";
