@@ -1,7 +1,7 @@
-// import championApi from "../API/WebApi";
+import LeagueCharacters from "../functions/champions";
 
-
-async function getChampionData() {
-
-    
+export default function ChampionCard(){
+    return (
+        LeagueCharacters()
+    )
 }

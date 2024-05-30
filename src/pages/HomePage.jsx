@@ -5,6 +5,7 @@ export default function HomePage(){
         <h1>League of Legends Wiki!</h1>
         <p>Welcome to the LoL Wiki!</p>
         <Link to={"/about"}>About me!</Link>
+        <Link to={"/champions"}>Champions!</Link>
 
 
     </>
