@@ -1,0 +1,12 @@
+#SearchInput {
+
+    padding: 20px;
+    background-color: #A2A2C8;
+
+    input {
+        height: 10vh;
+        width: 30vw;
+        font-size: 1.5rem;
+        border-radius: 10px;
+    }
+}

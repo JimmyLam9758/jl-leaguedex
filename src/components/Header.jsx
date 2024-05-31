@@ -6,7 +6,7 @@ export default function Header(){
     return (
         <header>
             <div id="headerBranding">
-                LoL Wiki
+                LeagueDex
             </div>
             <nav id="headerNavbar">
                 <NavLink to={"/"} >Home</NavLink>
