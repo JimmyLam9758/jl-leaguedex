@@ -1,8 +1,10 @@
 # League dex - Jimmy Lam
 
-## (Netlify)[]
+## [Netlify](https://jl-leaguedex.netlify.app)
 
-## This is my react app of a pokedex-like webapp for League of Legends
+## [Github-Repo](https://github.com/JimmyLam9758/jl-leaguedex)
+
+### This is my react app of a pokedex-like webapp for League of Legends
 
 TODO:
 
