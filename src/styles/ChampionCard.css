@@ -1,0 +1,39 @@
+
+/* Styling for container */
+.champion-card {
+    background-color: #A2C8A2;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  /* Styling for list */
+  .champion-card ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .champion-card li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 25%;
+  }
+  
+  /* styling for logo */
+  .champion-card img {
+    width: 20%;
+    height: 100%;
+    border-radius: 50%;
+    margin-right: 10px;
+  }

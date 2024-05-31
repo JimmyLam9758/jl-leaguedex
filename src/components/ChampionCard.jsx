@@ -1,7 +1,13 @@
-import LeagueCharacters from "../functions/champions";
+import React from 'react';
+import ChampionList from '../functions/champions';
+import '../styles/ChampionCard.css';
 
-export default function ChampionCard(){
-    return (
-        LeagueCharacters()
-    )
-}
+const ChampionCard = () => {
+  return (
+    <div className="champion-card">
+      <ChampionList /> {/* Render the ChampionList component */}
+    </div>
+  );
+};
+
+export default ChampionCard;
