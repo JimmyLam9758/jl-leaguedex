@@ -20,9 +20,13 @@ const ChampionList = () => {
           return fetchChampionLogo(champion.id).then(logoUrl => ({...champion, logoUrl }));
         });
         // Wait for all promises to resolve then update state with all data
+        // Promise.all(promises).then(championsWithLogos => {
+        //   setChampions(championsWithLogos);
         Promise.all(promises).then(championsWithLogos => {
+          championsWithLogos.sort((a, b) => a.name.localeCompare(b.name));
           setChampions(championsWithLogos);
         });
+        // });
       })
      .catch(error => {
       // Catch any errors
@@ -36,13 +40,15 @@ const ChampionList = () => {
      .then(response => response.blob())
      .then(blob => URL.createObjectURL(blob));
   };
+
+
   // Render component
   return (
     <div>
       <h1>League of Legends Champions</h1>
       <ul>
         {champions.map(champion => (
-          <li key={champion.id}>
+          <li key={champion.name}>
             <img src={champion.logoUrl} alt={champion.name} width="50" height="50" />
             {champion.name}
           </li>

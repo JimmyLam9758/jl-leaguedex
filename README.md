@@ -83,3 +83,5 @@ TODO:
 - Add About page
 - Add champions page and move champions to that page instead of home page
 - Add search bar functionality
+- Add skins and images corresponding
+- Add champ info, skills, bio, etc.
